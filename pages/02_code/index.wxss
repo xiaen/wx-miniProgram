@@ -1,0 +1,9 @@
+/* pages/02_code/index.wxss */
+.f2-chart {
+  width: 100%;
+  height: 500rpx;
+}
+
+.calendar {
+  --calendar-height: 500px;
+}

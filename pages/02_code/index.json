@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-calendar": "@vant/weapp/calendar/index",
+    "van-slider": "@vant/weapp/slider/index",
+    "f2": "@antv/wx-f2/index",
+    "calendar": "../../cpt/calendar/index"
+  }
+}

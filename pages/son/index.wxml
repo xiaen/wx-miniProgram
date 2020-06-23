@@ -1,0 +1,5 @@
+<!--pages/son/index.wxml-->
+<text>son</text>
+<view>{{msg}}</view>
+<view>{{str}}</view>
+<button bind:tap="click">传值</button>

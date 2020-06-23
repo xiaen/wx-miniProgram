@@ -1,0 +1,30 @@
+<!-- pages/01_code/index.wxml -->
+<father></father>
+<view>{{obj.fly(fly)}}</view>
+<view>{{a}}</view>
+<view>{{abc}}</view>
+<text>{{msg}}</text>
+<text>{{str}}</text>
+<view wx:for="{{list}}" wx:key="*this">
+    <view>{{item.name}}</view>
+    <navigator url="../02_code/index?id={{item.age}}">{{item.name}}</navigator>
+    <view>{{item.age}}</view>
+    <view wx:if="{{item.age > 18}}">成年</view>
+    <view wx:else>未成年</view>
+    <button bind:tap="btn" type="primary" data-flag="{{item}}">获取信息</button>
+</view>
+<button bind:tap="click" type="primary">切换颜色</button>
+<view class="box" hidden="{{flag}}"></view>
+<text bind:tap="touch" data-info="hot" class="{{movie === 'hot' ? 'active' : ''}}">热映</text>
+<text bind:tap="touch" data-info="coming" class="{{movie === 'coming' ? 'active' : ''}}">待映</text>
+<view hidden="{{movie === 'hot' ? false : true}}">我是热映电影</view>
+<view hidden="{{movie === 'coming' ? false : true}}">我是待映电影</view>
+<button bind:tap="open">打开相机</button>
+<view>{{flystr}}</view>
+<wxs module="obj">
+    module.exports = {
+        fly: function(str) {
+            return '****'+str+'****'
+        }
+    }
+</wxs>

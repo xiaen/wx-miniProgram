@@ -1,0 +1,4 @@
+<template name="tem">
+<view>name:{{name}}</view>
+<view>age:{{age}}</view>
+</template>

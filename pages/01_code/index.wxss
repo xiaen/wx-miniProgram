@@ -1,0 +1,12 @@
+/* pages/01_code/index.wxss */
+.box {
+    width: 750rpx;
+    height: 320rpx;
+    background-color: pink;
+}
+text {
+    margin: 10px 20px;
+}
+.active {
+    background-color: pink;
+}

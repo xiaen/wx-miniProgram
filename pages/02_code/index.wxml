@@ -1,0 +1,17 @@
+<!-- pages/02_code/index.wxml -->
+<van-calendar title="日历" poppable="{{ false }}" show-confirm="{{ false }}" class="calendar" />
+<import src="../../tem/tem01"></import>
+<text>pages/02_code/index.wxml</text>
+<template is="tem" data="{{name:'李四', age: 20}}"></template>
+<van-button type="default">默认按钮</van-button>
+<van-button type="primary">主要按钮</van-button>
+<van-button type="info">信息按钮</van-button>
+<van-button type="warning">警告按钮</van-button>
+<van-button type="danger">危险按钮</van-button>
+<van-cell title="选择单个日期" value="{{ date }}" bind:click="onDisplay" />
+<van-calendar show="{{ show }}" bind:close="onClose" bind:confirm="onConfirm" />
+<van-slider value="50" bind:change="onChange" />
+<view class="container">
+    <f2 class="f2-chart" onInit="{{onInitChart}}" />
+</view>
+<calendar></calendar>

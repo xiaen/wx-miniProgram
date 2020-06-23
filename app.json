@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/01_code/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/02_code/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "测试",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#555",
+    "list": [
+      {
+        "pagePath": "pages/01_code/index",
+        "text": "测试"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "登陆"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

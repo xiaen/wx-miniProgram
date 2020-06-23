@@ -1,0 +1,6 @@
+<!--pages/father/index.wxml-->
+<text>father</text>
+<view>{{newmsg}}</view>
+<view>{{str}}</view>
+<view>------------</view>
+<son msg="{{msg}}" bind:send="sendfather"></son>
