@@ -3,7 +3,8 @@
     "pages/01_code/index",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/02_code/index"
+    "pages/02_code/index",
+    "pages/03_code/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

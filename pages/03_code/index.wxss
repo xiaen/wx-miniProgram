@@ -1,0 +1,13 @@
+/* pages/03_code/index.wxss */
+.item {
+    display: flex;
+}
+
+label {
+    width: 80px;
+    text-align: right;
+}
+
+input {
+    flex: 1;
+}

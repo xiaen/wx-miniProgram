@@ -1,0 +1,34 @@
+<!-- pages/03_code/index.wxml -->
+<form bind:submit="send">
+    <view class="item">
+        <label>用户名：</label>
+        <input type="text" name="username" />
+    </view>
+    <view class="item">
+        <label>密码：</label>
+        <input type="text" password="{{true}}" name="password" />
+    </view>
+    <view class="item">
+        <label>性别：</label>
+        <radio-group bind:change="radioChange">
+            <radio value="0" checked />
+            男
+            <radio value="1" />
+            女
+        </radio-group>
+    </view>
+    <view class="item">
+        <label>爱好：</label>
+        <checkbox-group bind:change="checkboxChange">
+            <checkbox value="run" checked />
+            跑步
+            <checkbox value="code" />
+            敲代码
+            <checkbox value="sleep" />
+            睡觉
+        </checkbox-group>
+    </view>
+    <view class="item">
+        <button form-type="submit">提交</button>
+    </view>
+</form>

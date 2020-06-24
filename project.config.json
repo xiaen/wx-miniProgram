@@ -78,6 +78,13 @@
 					"pathName": "pages/02_code/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "03_cod",
+					"pathName": "pages/03_code/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
